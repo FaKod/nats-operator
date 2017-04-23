@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/pires/nats-operator/pkg/constants"
-	"github.com/pires/nats-operator/pkg/spec"
+	"github.com/fakod/nats-operator/pkg/constants"
+	"github.com/fakod/nats-operator/pkg/spec"
 
 	"k8s.io/kubernetes/pkg/api"
 	apierrors "k8s.io/kubernetes/pkg/api/errors"

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pires/nats-operator/pkg/util/k8sutil"
-	"github.com/pires/nats-operator/test/e2e/framework"
+	"github.com/fakod/nats-operator/pkg/util/k8sutil"
+	"github.com/fakod/nats-operator/test/e2e/framework"
 
 	"k8s.io/kubernetes/pkg/api"
 )

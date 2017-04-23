@@ -18,7 +18,7 @@ import (
 	"flag"
 	"time"
 
-	"github.com/pires/nats-operator/pkg/util/k8sutil"
+	"github.com/fakod/nats-operator/pkg/util/k8sutil"
 
 	"github.com/Sirupsen/logrus"
 	"k8s.io/kubernetes/pkg/api"
@@ -37,7 +37,7 @@ type Framework struct {
 // Setup setups a test framework and points "Global" to it.
 func Setup() error {
 	kubeconfig := flag.String("kubeconfig", "", "kube config path, e.g. $HOME/.kube/config")
-	opImage := flag.String("operator-image", "", "operator image, e.g. quay.io/pires/nats-operator")
+	opImage := flag.String("operator-image", "", "operator image, e.g. quay.io/fakod/nats-operator")
 	ns := flag.String("namespace", "default", "e2e test namespace")
 	flag.Parse()
 

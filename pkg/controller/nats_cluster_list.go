@@ -15,7 +15,7 @@
 package controller
 
 import (
-	"github.com/pires/nats-operator/pkg/spec"
+	"github.com/fakod/nats-operator/pkg/spec"
 
 	"k8s.io/kubernetes/pkg/api/unversioned"
 )

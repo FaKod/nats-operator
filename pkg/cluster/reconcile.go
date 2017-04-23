@@ -15,8 +15,8 @@
 package cluster
 
 import (
-	"github.com/pires/nats-operator/pkg/spec"
-	"github.com/pires/nats-operator/pkg/util/k8sutil"
+	"github.com/fakod/nats-operator/pkg/spec"
+	"github.com/fakod/nats-operator/pkg/util/k8sutil"
 
 	"k8s.io/kubernetes/pkg/api"
 )

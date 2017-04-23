@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pires/nats-operator/test/e2e/framework"
+	"github.com/fakod/nats-operator/test/e2e/framework"
 
 	"github.com/Sirupsen/logrus"
 )

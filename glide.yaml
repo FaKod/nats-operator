@@ -1,4 +1,4 @@
-package: github.com/pires/nats-operator
+package: github.com/fakod/nats-operator
 import:
 - package: github.com/Sirupsen/logrus
   version: v0.10.0
