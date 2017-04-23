@@ -1,6 +1,7 @@
 ## Go
 _output
 vendor/*
+nats-operator
 
 ## IntelliJ
 .idea
