@@ -1,0 +1,3 @@
+FROM scratch
+COPY nats-operator /
+CMD ["/nats-operator"]
